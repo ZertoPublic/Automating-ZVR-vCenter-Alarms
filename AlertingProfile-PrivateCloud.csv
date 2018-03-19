@@ -1,0 +1,20 @@
+Alert,EmailTo,EmailCc,EmailDescription,Severity,AlertID
+com.zerto.event.MissingOrgVdcNetworkMapping,example.user@company.com,example.user2@company.com,Zerto Missing Org Network ,Warning,VPG0025
+com.zerto.event.MissingRecoveryOrgVdcNetworkMapping,example.user@company.com,example.user2@company.com,Zerto Missing Recovery Network Mapping,Error,VPG0028
+com.zerto.event.NoMatchingStorageProfile,example.user@company.com,example.user2@company.com,Zerto No Storage Profile Match,Error,VPG0018
+com.zerto.event.RecoveryDatastoreNotInStorageProfile,example.user@company.com,example.user2@company.com,Zerto Recovery Datastore not in Storage Profile,Error,VPG0024
+com.zerto.event.RecoveryProviderVDCStorageProfileDisabled,example.user@company.com,example.user2@company.com,Zerto Provider Storage Profile Disabled,Error,VPG0022
+com.zerto.event.RecoveryProviderVDCStorageProfileNotFound,example.user@company.com,example.user2@company.com,Zerto Provider Storage Profile Not Found,Error,VPG0021
+com.zerto.event.RecoveryStorageProfileDisabled,example.user@company.com,example.user2@company.com,Zerto Storage Profile Disabled,Error,VPG0019
+com.zerto.event.RecoveryStorageProfileNotFound,example.user@company.com,example.user2@company.com,Zerto Storage Profile Not Found ,Error,VPG0020
+com.zerto.event.RecoveryVcenterStorageProfileMissing,example.user@company.com,example.user2@company.com,Zerto vCenter Storage Profile Missing,Error,"VPG0018,VPG0023"
+com.zerto.event.ResourcePoolInsufficientError,example.user@company.com,example.user2@company.com,Zerto Resource Pool Insuffcient Error,Error,VPG0015
+com.zerto.event.ResourcePoolMissingError,example.user@company.com,example.user2@company.com,Zerto Resource Pool Missing ,Error,VPG0016
+com.zerto.event.ServiceProfileMissing,example.user@company.com,example.user2@company.com,Zerto Service Profile Missing,Warning,VPG0026
+com.zerto.event.VCDConnector,example.user@company.com,example.user2@company.com,Zerto vCD Connection Problem ,Error,"VCD0014,VCD0015,VCD0018"
+com.zerto.event.VCDReflection,example.user@company.com,example.user2@company.com,Zerto vCD Reflection Problem ,Error,"VCD0001,VCD0002,VCD0003,VD0004,VCD0005,VCD0006,VCD0007,VCD0010,VCD0016,VCD0017,VCD0020,VCD0021"
+com.zerto.event.VPGOutOfZorgOnProtected,example.user@company.com,example.user2@company.com,Zerto VPG out of Zerto Protected Side,Warning,VPG0035
+com.zerto.event.VPGOutOfZorgOnRecovery,example.user@company.com,example.user2@company.com,Zerto VPG out of Zerto Recovery Side,Warning,VPG0036
+com.zerto.event.Win2003VmDuringReplicationToVCD,example.user@company.com,example.user2@company.com,Zerto Win2k3 VM Replicating to vCD,Error,VPG0041
+com.zerto.event.CloudConnector,example.user@company.com,example.user2@company.com,Zerto Cloud Connector Problem,Error,ZCC0002
+com.zerto.event.Ghost CloudConnector,example.user@company.com,example.user2@company.com,Zerto Ghost Cloud Connector ,Error,ZCC0001

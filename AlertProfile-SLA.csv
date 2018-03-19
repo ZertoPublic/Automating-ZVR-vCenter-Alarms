@@ -1,0 +1,8 @@
+Alert,EmailTo,EmailCC,EmailDescription,Severity,AlertID
+com.zerto.event.BacklogError,example.user@company.com,example.user2@company.com,Zerto Backlog Error,Error,VPG0004
+com.zerto.event.BacklogWarning,example.user@company.com,example.user2@company.com,Zerto Backlog Warning,Warning,VPG0003
+com.zerto.event.CriticalCheckpoint,example.user@company.com,example.user2@company.com,Zerto Critical Checkpoint,Error,VPG0007
+com.zerto.event.JournalLimitReached,example.user@company.com,example.user2@company.com,Zerto Journal Limit Reached,Error / Warning,VRA0039
+com.zerto.event.ProtectionGroupPaused,example.user@company.com,example.user2@company.com,Zerto Protection Group Paused,Warning,VPG0017
+com.zerto.event.RpoError,example.user@company.com,example.user2@company.com,Zerto RPO Error,Error,VPG0010
+com.zerto.event.RpoWarning,example.user@company.com,example.user2@company.com,Zerto RPO Warning ,Warning,VPG0009

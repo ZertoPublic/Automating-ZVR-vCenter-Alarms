@@ -1,0 +1,93 @@
+Alert,EmailTo,EmailCC,EmailDescription,Severity,AlertID
+com.zerto.event.BacklogError,example.user@company.com,example.user2@company.com,Zerto Backlog Error,Error,"VPG0004,VPG0038 "
+com.zerto.event.BacklogWarning,example.user@company.com,example.user2@company.com,Zerto Backlog Warning,Warning,"VPG0003,VPG0037"
+com.zerto.event.CriticalCheckpoint,example.user@company.com,example.user2@company.com,Zerto Critical Checkpoint,Error,VPG0007
+com.zerto.event.JournalLimitReached,example.user@company.com,example.user2@company.com,Zerto Journal Limit Reached,Error / Warning,"VRA0039,VRA0040"
+com.zerto.event.ProtectionGroupPaused,example.user@company.com,example.user2@company.com,Zerto Protection Group Paused,warning,VPG0017
+com.zerto.event.RpoError,example.user@company.com,example.user2@company.com,Zerto RPO Error,Error,VPG0010
+com.zerto.event.RpoWarning,example.user@company.com,example.user2@company.com,Zerto RPO Warning ,Warning,VPG0009
+com.zerto.event.AwsStorageRemoved,example.user@company.com,example.user2@company.com,Zerto AWS Storage Removed,,
+com.zerto.event.CheckHost,example.user@company.com,example.user2@company.com,Zerto Check Host ,Warning,"ZVM0011,ZVM0013"
+com.zerto.event.MisconfiguredSanPolicyOnCrossReplicatedWinVmName,example.user@company.com,example.user2@company.com,Zerto Misconfigured SAN Policy,Warning,VPG0043
+com.zerto.event.CloudStorageRemoved ,example.user@company.com,example.user2@company.com,Zerto Cloud Storage Removed,Error,ZCA0001
+com.zerto.event.Datastore,example.user@company.com,example.user2@company.com,Zerto Datastore Accessibility,Error,STR0001
+com.zerto.event.DisconnectedAWSName ,example.user@company.com,example.user2@company.com,Zerto Disconnected AWS Site,Error,ZVM0001
+com.zerto.event.DisconnectedVCenter,example.user@company.com,example.user2@company.com,Zerto Disconnected vCenter ,Error,ZVM0001
+com.zerto.event.DuplicateMacAddress,example.user@company.com,example.user2@company.com,Zerto Duplicat Mac Address,Error,"VRA0037,VRA0038"
+com.zerto.event.HostInMaintenanceMode ,example.user@company.com,example.user2@company.com,Zerto Host In Maintenance Mode,Warning,VRA0056
+com.zerto.event.MissingNetworksForVMmsInVPG,example.user@company.com,example.user2@company.com,Zerto Missing Networks in VPG,Error,VPG0042
+com.zerto.event.ProtectedVmWithUnkownOS,example.user@company.com,example.user2@company.com,Zerto Protected VM Unknown OS,,-
+com.zerto.event.RdmWithOddNumberOfBlocks,example.user@company.com,example.user2@company.com,Zerto RDM Odd Number of Blocks,Error,VPG0039
+com.zerto.event.RecoveryDataStoreFull,example.user@company.com,example.user2@company.com,Zerto Recovery Datastore Full ,Error,STR0002
+com.zerto.event.RecoveryDataStoreLowFreeSpace,example.user@company.com,example.user2@company.com,Zerto Recovery Datastore Low Space,Warning,STR0004
+com.zerto.event.ScvmmFailedToCheckIfPsModuleInstalled ,example.user@company.com,example.user2@company.com,Zerto SCVMM Failed to Check PS Module,-,ZVM0015
+com.zerto.event.ScvmmFailedToCreateFolderAtHost ,example.user@company.com,example.user2@company.com,Zerto SCVMM Failed Host Folder,-,ZVM0015
+com.zerto.event.ScvmmFailedToUploadScriptToHost ,example.user@company.com,example.user2@company.com,Zerto SCVMM Failed Script Upload to Host,-,ZVM0015
+com.zerto.event.ScvmmHostIsNotResponding ,example.user@company.com,example.user2@company.com,Zerto SCVMM Host not Responding,-,ZVM0015
+com.zerto.event.ScvmmPsModuleNotFoundAtHost ,example.user@company.com,example.user2@company.com,Zerto SCVMM PS Module Not Found,-,ZVM0015
+com.zerto.event.VirtualMachineHardwareVersionMismatch,example.user@company.com,example.user2@company.com,Zerto VM Hardware Version Mismatch,Error,VPG0040
+com.zerto.event.VraBallooning,example.user@company.com,example.user2@company.com,Zerto VRA Ballooning,Warning,VRA0029
+com.zerto.event.AssertAlert,example.user@company.com,example.user2@company.com,Zerto Assert Alert,Error,ZVM0009
+ com.zerto.event.FailureDuringReflectionCollection,example.user@company.com,example.user2@company.com,Zerto Reflection Collection Failure,,-
+com.zerto.event.FileRestoreComponentNotAvailable,example.user@company.com,example.user2@company.com,Zerto File Restore Not Available,Error,FLR0001
+com.zerto.event.GhostSystemDisk,example.user@company.com,example.user2@company.com,Zerto Ghost System Disk ,Error,VRA0053
+com.zerto.event.GhostUnknownVolume,example.user@company.com,example.user2@company.com,Zerto Ghost Unknown Volume,Warning,VRA0052
+com.zerto.event.GhostVm,example.user@company.com,example.user2@company.com,Zerto Ghost VM,Error,VRA0024
+com.zerto.event.GhostVolume ,example.user@company.com,example.user2@company.com,Zerto Ghost Volume,Error,"VRA0027,VRA0026"
+com.zerto.event.HostPasswordChanged,example.user@company.com,example.user2@company.com,Zerto Host Password Changed,Warning,VRA0050
+com.zerto.event.NewVersionAvailable,example.user@company.com,example.user2@company.com,Zerto New Version Available,Warning ,"ZVM006,ZVM007"
+com.zerto.event.PeerZvmCompatibility,example.user@company.com,example.user2@company.com,Zerto Peer Zvm Compatibility,Error,ZVM0008
+com.zerto.event.ProtectedVolumeSizeChanged,example.user@company.com,example.user2@company.com,Zerto Size Changed Protected,,-
+com.zerto.event.ProtectionGroupError,example.user@company.com,example.user2@company.com,Zerto Protection Group Error,Error,VPG0005
+com.zerto.event.ProtectionGroupMissingConfiguration,example.user@company.com,example.user2@company.com,Zerto Missing Configuration Protection,Error,VPG0006
+com.zerto.event.UndoRollbackFailed,example.user@company.com,example.user2@company.com,Zerto Undo Rollback Failed,Error,"VPG0008,VRA0049"
+com.zerto.event.UnprotectedVMsError,example.user@company.com,example.user2@company.com,Zerto Unprotected VMs Error,Error,VPG0027
+com.zerto.event.VraCloneVolume,example.user@company.com,example.user2@company.com,Zerto Vra Clone Volume,Error,"VRA0014,VRA0015,VRA0016,VRA0017"
+com.zerto.event.VraDidntReceiveIp,example.user@company.com,example.user2@company.com,Zerto Receive Ip Vra,Error,VRA0002
+com.zerto.event.VraDiskboxScsiGuidMismatch,example.user@company.com,example.user2@company.com,Zerto Vra Diskbox Guid Mismatch,,-
+com.zerto.event.VraIpChanged,example.user@company.com,example.user2@company.com,Zerto Vra Ip Changed,Error,"VRA0003,VRA0004"
+com.zerto.event.VraLogVolume,example.user@company.com,example.user2@company.com,Zerto Vra Log Volume,Error,"VRA0006,VRA0007"
+com.zerto.event.VraPoweredOff,example.user@company.com,example.user2@company.com,Zerto Vra Powered Off,Error / Warning,VRA0028
+com.zerto.event.VraProtectedVolume,example.user@company.com,example.user2@company.com,Zerto Vra Protected Volume,Error,"VRA0018,VRA0019,VRA0020,VRA0021,VRA0022,VRA0025"
+com.zerto.event.VRARegistrationFailed,example.user@company.com,example.user2@company.com,Zerto Vraregistration Failed,Error,"VRA0023,VRA0015,VRA0016,VRA0017"
+com.zerto.event.VRAsReconciliation,example.user@company.com,example.user2@company.com,Zerto Vras Reconciliation,Error,VRA0037
+com.zerto.event.VraTargetVolume,example.user@company.com,example.user2@company.com,Zerto Vra Target Volume,Error,"VRA0008,VRA0009,VRA0010,VRA0011,VRA0012,VRA0013  "
+com.zerto.event.VraToVraConnection,example.user@company.com,example.user2@company.com,Zerto Vra Connection Vra,Error,VRA0006
+com.zerto.event.ZVM lost access to Azure,example.user@company.com,example.user2@company.com,Zerto  to  Azure ZVM lost,,-
+com.zerto.event.ZvmToVraConnection,example.user@company.com,example.user2@company.com,Zerto Vra Connection Zvm,Error,ZVM0002
+com.zerto.event.ZvmToZvmConnection,example.user@company.com,example.user2@company.com,Zerto Zvm Connection Zvm,Error / Warning,"ZVM0003,ZVM0004"
+com.zerto.event.ZvmToZvmSync,example.user@company.com,example.user2@company.com,Zerto Zvm Sync Zvm,Warning,ZVM0010
+com.zerto.event.ZvmTweaksLoadFailed,example.user@company.com,example.user2@company.com,Zerto Load Failed Zvm,,-
+com.zerto.event.ProtectedVmScsiMismatch,example.user@company.com,example.user2@company.com,Zerto Scsi Mismatch Protected,Error,ZVM0012
+com.zerto.event.VirtualMachineHasZeroSizeVolumeName ,example.user@company.com,example.user2@company.com,Zerto VM Zerto sive Volume ,Error,VPG0044
+com.zerto.event.LowDiskFreeSpace,example.user@company.com,example.user2@company.com,Zerto Free Space Low,Warning,ZVM0005
+com.zerto.event.BackupFailsConstantlyError,example.user@company.com,example.user2@company.com,Zerto Backup Failure,Error,BCK0002
+com.zerto.event.BackupFailsConstantlyWarning,example.user@company.com,example.user2@company.com,Zerto Backup Failure Warning,Warning,BCK0001
+com.zerto.event.BackupTargetDisconnected,example.user@company.com,example.user2@company.com,Zerto Backup Repository Disconnect,Error / Warning,BCK0005
+com.zerto.event.BackupTargetIsNone,example.user@company.com,example.user2@company.com,Zerto Backup Repository not found,Warning,BCK0007
+com.zerto.event.VbaDisconnected,example.user@company.com,example.user2@company.com,Zerto VBA Service Disconnected,Error,BCK0006
+com.zerto.event.MissingOrgVdcNetworkMapping,example.user@company.com,example.user2@company.com,Zerto Missing Org Network ,Warning,VPG0025
+com.zerto.event.MissingRecoveryOrgVdcNetworkMapping,example.user@company.com,example.user2@company.com,Zerto Missing Recovery Network Mapping,Error,VPG0028
+com.zerto.event.NoMatchingStorageProfile,example.user@company.com,example.user2@company.com,Zerto No Storage Profile Match,Error,VPG0018
+com.zerto.event.RecoveryDatastoreNotInStorageProfile,example.user@company.com,example.user2@company.com,Zerto Recovery Datastore not in Storage Profile,Error,VPG0024
+com.zerto.event.RecoveryProviderVDCStorageProfileDisabled,example.user@company.com,example.user2@company.com,Zerto Provider Storage Profile Disabled,Error,VPG0022
+com.zerto.event.RecoveryProviderVDCStorageProfileNotFound,example.user@company.com,example.user2@company.com,Zerto Provider Storage Profile Not Found,Error,VPG0021
+com.zerto.event.RecoveryStorageProfileDisabled,example.user@company.com,example.user2@company.com,Zerto Storage Profile Disabled,Error,VPG0019
+com.zerto.event.RecoveryStorageProfileNotFound,example.user@company.com,example.user2@company.com,Zerto Storage Profile Not Found ,Error,VPG0020
+com.zerto.event.RecoveryVcenterStorageProfileMissing,example.user@company.com,example.user2@company.com,Zerto vCenter Storage Profile Missing,Error,"VPG0018,VPG0023"
+com.zerto.event.ResourcePoolInsufficientError,example.user@company.com,example.user2@company.com,Zerto Resource Pool Insuffcient Error,Error,VPG0015
+com.zerto.event.ResourcePoolMissingError,example.user@company.com,example.user2@company.com,Zerto Resource Pool Missing ,Error,VPG0016
+com.zerto.event.ServiceProfileMissing,example.user@company.com,example.user2@company.com,Zerto Service Profile Missing,Warning,VPG0026
+com.zerto.event.VCDConnector,example.user@company.com,example.user2@company.com,Zerto vCD Connection Problem ,Error,"VCD0014,VCD0015,VCD0018"
+com.zerto.event.VCDReflection,example.user@company.com,example.user2@company.com,Zerto vCD Reflection Problem ,Error,"VCD0001,VCD0002,VCD0003,VD0004,VCD0005,VCD0006,VCD0007,VCD0010,VCD0016,VCD0017,VCD0020,VCD0021"
+com.zerto.event.VPGOutOfZorgOnProtected,example.user@company.com,example.user2@company.com,Zerto VPG out of Zerto Protected Side,Warning,VPG0035
+com.zerto.event.VPGOutOfZorgOnRecovery,example.user@company.com,example.user2@company.com,Zerto VPG out of Zerto Recovery Side,Warning,VPG0036
+com.zerto.event.Win2003VmDuringReplicationToVCD,example.user@company.com,example.user2@company.com,Zerto Win2k3 VM Replicating to vCD,Error,VPG0041
+com.zerto.event.CloudConnector,example.user@company.com,example.user2@company.com,Zerto Cloud Connector Problem,Error,ZCC0002
+com.zerto.event.Ghost CloudConnector,example.user@company.com,example.user2@company.com,Zerto Ghost Cloud Connector ,Error,ZCC0001
+com.zerto.event.LastTest,example.user@company.com,example.user2@company.com,The VPG has not been tested or was tested a long time ago,Warning,"vpg0011,vpg0012"
+com.zerto.event.License,example.user@company.com,example.user2@company.com,There is a problem with the license,Warning,"LIC0001,LIC0003,LIC0004,LIC0006,LIC0007,LIC0009,LIC0010,LIC0011"
+com.zerto.event.RecoveryBeforeCommit,example.user@company.com,example.user2@company.com,The VPG is waiting to be committed or rolled back,Warning,VPG0014
+com.zerto.event.UninstalledHost,example.user@company.com,example.user2@company.com,The host has no VRA installed,Warning,VRA0001
+com.zerto.event.VirtualMachine,example.user@company.com,example.user2@company.com,For internal use only,-,-
+com.zerto.event.ZertoGenericAlert,example.user@company.com,example.user2@company.com,Zerto generic alert - check Zerto UI for details,Warning,VRA0030
