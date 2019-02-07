@@ -126,11 +126,11 @@ For further information about this alarm please review the following description
 Additional details in regards to possible causes and steps for resolution can be found at: `
 
 "@
-    $EmailBody += $AlertLinks.Trim() | foreach {$_ + "`n"}
+    $EmailBody += $AlertLinks.Trim() | ForEach-Object {$_ + "`n"}
     $EmailBody += "`nYou can also review the information further within the ZVM UI. Navigate to the monitoring tab and then search for the following alert ID:`n"
     $EmailBody += $MonitoringUrl
     $EmailBody += "`n`nAlertID:`n"
-    $EmailBody += $AlertID | foreach {$_ + "`n"}
+    $EmailBody += $AlertID | Foreach-Object {$_ + "`n"}
 
     #Setting Notification emails
     Get-AlarmDefinition -Name $AlertName | New-AlarmAction -Email -To $EmailTo -Cc $EmailCC -Body $EmailBody -Subject $EmailDescription
@@ -146,7 +146,7 @@ Additional details in regards to possible causes and steps for resolution can be
 
     #Wait 30 seconds between alert configuration task
     write-host "Waiting 30 seconds before configuring the next alarm definition"
-    sleep 30
+    Start-Sleep 30
 
     #End of per Alert operations below
 }
