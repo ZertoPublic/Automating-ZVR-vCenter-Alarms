@@ -7,7 +7,7 @@ In no event shall Zerto, its authors or anyone else involved in the creation, pr
 Automate SMTP based notifications for Zerto com.zerto.events within vCenter
 
 # Getting Started
-Instructions on how to utilize this automation example can be found on the following blog: https://www.zerto.com/scripting-apis/automating-zerto-virtual-replication-vcenter-alarms/
+Instructions on how to utilize this automation example can be found on the following blog: [Zerto Automating Virtual Replication vCenter Alarms](https://www.zerto.com/scripting-apis/automating-zerto-virtual-replication-vcenter-alarms/)
 
 # Prerequisites
 Environment Requirements:
